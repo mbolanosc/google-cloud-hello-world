@@ -1,4 +1,4 @@
-'use strict': 
+'use strict'; 
 
 var express = require('express');
 var app = express();
@@ -9,5 +9,5 @@ app.get('/',function(req, res){
 });
 
 var server = app.listen(process.env.PORT || '8080',function(){
-	console.log('Server is all good '+ server.adress().port);
+	console.log('Server is all good '+ server.address().port);
 });
