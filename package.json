@@ -16,10 +16,13 @@
   "author": "Ma Fernanda Bolanos C",
   "engines": {
     "node": "~4.2"
-  }
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mbolanosc/google-cloud-hello-world/issues"
   },
-  "homepage": "https://github.com/mbolanosc/google-cloud-hello-world#readme"
+  "homepage": "https://github.com/mbolanosc/google-cloud-hello-world#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
