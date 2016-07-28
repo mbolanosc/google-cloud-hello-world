@@ -1,0 +1,25 @@
+{
+  "name": "google-cloud-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "monitor": "nodemon",
+    "deploy": "gcloud app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbolanosc/google-cloud-hello-world.git"
+  },
+  "author": "Ma Fernanda Bolanos C",
+  "engines": {
+    "node": "~4.2"
+  }
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbolanosc/google-cloud-hello-world/issues"
+  },
+  "homepage": "https://github.com/mbolanosc/google-cloud-hello-world#readme"
+}
